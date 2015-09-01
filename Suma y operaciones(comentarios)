@@ -1,0 +1,40 @@
+// Suma y operaciones
+//Autor: Rodrigo Hurtado
+// fecha: 01/09/15
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+int main(){
+	// se declaran variables enteras y una decimal (float)
+	int a,b,c,d,e,g;
+	float f;
+	// se muestra en la pnatalla la primera orden
+	cout <<"ingrese el primer numero"<< endl;
+	//se ingresa el primer valor
+	cin >> a;
+	//Se muestra en la pantalla la segunda orden.
+	cout <<"ingrese el segundo numero"<< endl;
+	// se ingresa el segundo valor
+	cin >> b;
+	// se ingresan las operaciones
+	// Se suma a mas b y guarda un numero entero en la variable c
+	c = a+b;
+	// se resta a menos b y se guarda un numero entero a la variable d
+	d = a-b;
+	// se multiplica a por b y se guarda un numero entero a  la variable e
+	e = a*b;
+	//se divide a entre b y se guarda un numero entero en la variable f
+	f = a/b;
+	//Se realiza la operacion mod
+	g = a%b;
+	//se muestran en la pantalla los resultados de las operaciones
+	cout <<"la suma; " << c << endl;
+	cout <<"la resta es; " << d << endl;
+	cout <<"la multiplicacion es; " << e << endl;
+	cout <<"la division es; " << f << endl;
+	cout <<"el rsiduo es; " << g << endl;
+	getch();
+	return 0;
+}
